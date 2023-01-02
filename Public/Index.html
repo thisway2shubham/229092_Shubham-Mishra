@@ -5,8 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        #div3{
+           
+            flex:auto;
+            
+           flex-direction: column;
+        
+
+        }
+#div1{
+    border: 2px solid black;
+    flex: auto;
+    flex-direction: column;
+    width: 10cm;
+}
+#div2{
+    border: 2px solid black;
+    flex: auto;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 7cm;
+}
+
+
+    </style>
 </head>
 <body>
-    
+    <div id="div3" >
+
+        <h1>IACSD Administration Portal</h1>
+       
+        
+        <div id="div1">
+            <h2>Course Details</h2>
+            <ul>
+                <li>
+                    <h3>PG-DAC</h3>
+                    <ol>
+                    <li><b>Core java</b></li>
+                    <li><b>Data Structure</b></li>
+                    <li><b>Concept of programming</b></li>
+                </ol>
+                </li>
+
+                
+
+                <li>
+                    <h3>PG-DBDA</h3>
+                    <ol>
+                    <li><i>Core java</i></li>
+                    <li><i>Data Structure</i></li>
+                    <li><i>Concept of programming</i></li>
+                </ol>
+                </li>
+
+                <li>
+                    <h3>PG-DITISS</h3>
+                    <ol>
+                    <li><u>Core java</u></li>
+                    <li><u>Data Structure</u></li>
+                    <li><u>Concept of programming</u></li>
+                </ol>
+                </li>
+            </ul>
+            
+        </div>
+
+        <div id="div2">
+            <form>
+                <h2>
+                    Course_Schedule
+                </h2>
+                <table>
+                    <tr>
+                        <td>C_id:</td>
+                        <td><input type="number"></td>
+                    </tr>
+
+                    <tr>
+                        <td>C_name:</td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Date:</td>
+                        <td><input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Time:</td>
+                        <td><input type="time"></td>
+                    </tr>
+
+                    
+                </table>
+                <tr><button type="submit">Submit</button></tr>
+            </form>
+        </div>
+   
+    </div>
 </body>
 </html>
